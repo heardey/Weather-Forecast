@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weatherapp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="searchByUserLocation()">
+    <div id="frame">
+        <div id="appCase">
+            <div id="search">
+                <input id= "textBox" type="text">
+                <button onclick= "searchButton()">search</button>
+            </div>
+            <p class="design1">Weather report</p>
+            <div>
+                <h2 id="cityName"></h2>
+                <div id="weatherCondition"></div>
+            <h3>Wed, 19:20</h3>
+            <p id="degree"></p>
+            <ul class="list">
+                <li id="humidity"></li> 
+                <li id="wind"></li>
+            </ul>
+        </div>    
+    </div>
+</body>
+</html>

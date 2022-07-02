@@ -1,0 +1,76 @@
+body {
+    background-color: antiquewhite;
+}
+
+#frame {
+   
+    display: flex;
+}
+
+#appCase {
+    background-image: url(weatherbild.webp);
+    width: 400px;
+    height: 550px;
+    margin-left: 400px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 150px;
+}
+
+
+.design1 {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: jokerman, Helvetica;
+    color: white;
+}
+
+#degree {
+   text-align: center;
+   font-size: 70px;
+   color: lightyellow;
+}
+
+.list {
+    list-style-type: none;
+    color: rgb(238, 255, 0);
+    line-height: 0.8cm;
+    margin-left: 100px;
+}
+
+.week {
+    list-style-type: none;
+    display: flex;
+    cursor: pointer;  
+}
+
+.weekday {
+    padding-left: 20px;
+    color: rgb(228, 213, 213);
+    text-shadow: rgb(73, 10, 189) 5px 0 10px;
+    font-family:monospace;
+    background-color: white
+    
+}
+
+#search {
+   text-align: center;
+   margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+    color: gold;
+}
+
+h3{
+    text-align: center;
+    color: lawngreen;
+}
+
+#weatherCondition {
+    text-align: center;
+    color: gold;
+    font-size: 20px;
+}
