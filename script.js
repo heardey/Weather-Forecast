@@ -1,6 +1,6 @@
 function searchByUserLocation() {
     fetch('https://api.openweathermap.org/data/2.5/weather?q=Fulda&appid=efba40eb71a7c7dd297e80454c003ab3&units=metric')
-    
+    .then(response => response.json())
     .then(data=> { console.log(data)
         document.getElementById("degree").innerHTML= data.main.temp + "&#8451;"
         document.getElementById("humidity").innerHTML = "Humidity:  " + data.main.humidity
